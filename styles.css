@@ -1,0 +1,53 @@
+body{
+    background: black;
+}
+.contenedor{
+    width: 560px;
+    height: 750px;
+    background: white;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+}
+.encabezado{
+    display: flex;
+    width: 560px;
+    height: 10%;
+}
+.encabezadoIzq{
+    font-family: Arial;
+    padding: 15px;
+    flex: 30%;
+} 
+div.htmlIcon, div.texto{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 1%;
+}
+
+.encabezadoDer{ 
+    padding: 20px;
+    flex: -1%;
+}
+.iconos{
+    display: flex;
+    width: 560px;
+    height: 10%;
+}
+.iconsLeft{
+    padding: 25px;
+    flex: 30%;
+}
+.iconsRight{ 
+    padding: 20px;
+    flex: -1%;
+}
+i.iconsLeft{
+    justify-content: space-between;
+}
+.piePagina{
+    font-family: Arial;
+    padding: 15px;
+}
+
